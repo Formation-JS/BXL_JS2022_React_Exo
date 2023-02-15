@@ -1,0 +1,19 @@
+.main {
+    height: 50px;
+    display: flex;
+    flex-direction: row;
+    padding: 10px;
+    background-color: lightseagreen;
+}
+
+.main p {
+    margin: 0;
+    margin-left: 1ch;
+    font-size: 2em;
+    font-family: 'Comic sans ms';
+    color: snow;
+}
+
+.main img {
+    border-radius: 10px;
+}
