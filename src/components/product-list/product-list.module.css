@@ -1,0 +1,20 @@
+.discount {
+    color: hotpink;
+}
+
+.price {
+    font-family: monospace;
+}
+
+.product-line {
+    width: 300px;
+    margin: auto;
+    display: flex;
+    align-items: baseline;
+    justify-content: space-between;
+    margin-bottom: 0.5ch;
+}
+
+.product-line p {
+    margin: 0;
+}

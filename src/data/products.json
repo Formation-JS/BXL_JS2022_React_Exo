@@ -1,0 +1,32 @@
+[
+    {
+        "id": 1,
+        "name" : "Table",
+        "price": 125,
+        "isDiscount": false
+    },
+    {
+        "id": 2,
+        "name" : "Chaise",
+        "price": 42,
+        "isDiscount": true
+    },
+    {
+        "id": 3,
+        "name" : "Kallax 1x3",
+        "price": 44.99,
+        "isDiscount": false
+    },
+    {
+        "id": 4,
+        "name" : "Kallax 2x2",
+        "price": 34.99,
+        "isDiscount": true
+    },
+    {
+        "id": 5,
+        "name" : "Kallax 3x4",
+        "price": 119.99,
+        "isDiscount": false
+    }
+]
