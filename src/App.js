@@ -1,25 +1,28 @@
-import logo from './logo.svg';
 import './App.css';
+import Calculator from './components/calculator/calculator';
+import Counter from './components/counter/counter';
+import ProductList from './components/product-list/product-list';
+import Header from './containers/header/header';
+
+import products from './data/products.json';
 
 function App() {
-  return (
+  return (<>
+    <Header />
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+
+      <h2>Exo 02 - Collection</h2>
+      <ProductList products={products} />
+
+      <h2>Exo 03 - Event & State</h2>
+      <Counter />
+      <Counter step={5} />
+
+      <h2>Formulaire</h2>
+      <Calculator />
+
     </div>
-  );
+  </>);
 }
 
 export default App;
